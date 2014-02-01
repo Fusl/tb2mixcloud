@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This script has to be run hourly
+# echo '* * * * * [user] /path/to/tbr.sh' > /etc/cron.d/tbr
+
 sleep 34
 killall -USR2 tbr.js
 cd /home/tbr/
